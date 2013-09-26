@@ -8,8 +8,7 @@ package Clase4_Polimorfismo.varios;
  *
  * @author educacionit
  */
-public class Cantante {
-    extends Persona{
+public class Cantante     extends Persona{
     
 }
-}
+
