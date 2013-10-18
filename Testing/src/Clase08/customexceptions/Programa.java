@@ -15,9 +15,9 @@ public class Programa {
     public static void main(String[] args) {
         List<Vuelo> vuelos = new ArrayList<>();
         int cantidadPasajes = 100;
-        int cantidadPequeÃ±aPasajes = 25;
+        int cantidadPequeñaPasajes = 25;
         Vuelo vuelo1 = new Vuelo("Educacion it123", cantidadPasajes);
-        Vuelo vuelo2 = new Vuelo("Educacion it456", cantidadPequeÃ±aPasajes);
+        Vuelo vuelo2 = new Vuelo("Educacion it456", cantidadPequeñaPasajes);
         vuelos.add(vuelo1);
         vuelos.add(vuelo2);
         for(Vuelo v: vuelos){
